@@ -38,7 +38,6 @@ $ terraform apply
 ## Conclusion
 
 With Terraform, booting a AKS cluster can be done with a single command and it only takes some minutes to get a fully functional configuration.
-Next step : deploy an application in our cluster .
 
 ## Resources :
 
