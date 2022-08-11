@@ -1,5 +1,4 @@
 controller:
   service:
     annotations:
-      service.beta.kubernetes.io/azure-load-balancer-health-probe-request-path: /healthz
-
+      service.beta.kubernetes.io/azure-load-balancer-internal: "true"
