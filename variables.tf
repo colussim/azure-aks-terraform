@@ -15,7 +15,6 @@ variable "env" {
 
 variable "k8sversion" {
   default     = "1.23.5"
-  type        = string
   description = "The version of Kubernetes"
 }
 
