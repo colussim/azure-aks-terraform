@@ -27,7 +27,7 @@ The first thing to set up is your Terraform. We will create an Azure service pri
 
 ```
 
-$ git clone https://github.com/colussim/terraform-aks-aws.git
+$ git clone https://github.com/colussim/azure-aks-terraform.git
 $ cd azure-aks-terraform
 $ az login
 $ terraform init
