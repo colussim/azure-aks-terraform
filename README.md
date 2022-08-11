@@ -6,7 +6,7 @@
 The purpose of this tutorial is to create an AKS cluster (2 nodes) with Terraform. Azure Kubernetes Service (AKS) is a fully managed Kubernetes service by Azure.
 
 The Kubernetes cluster in a private network, and is deployed without outbound internet access. 
-Traffic from the Internet is prohibited, with the exception of requests on TCP ports 443 and 5432.
+Traffic from the Internet is prohibited, with the exception of requests on TCP ports 443 and 5432.I added a NGINX Ingress Controller to manage the access on the services, more practical 😀
 
 ## What is AKS ?
 Azure Kubernetes Service is a managed container orchestration service based on the open source Kubernetes system, which is available on the Microsoft Azure public cloud. 
